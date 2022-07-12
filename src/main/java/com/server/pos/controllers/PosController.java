@@ -41,7 +41,5 @@ public class PosController {
     @DeleteMapping("/delete-pos/{id}")
     public ResponseEntity <Boolean> deletePos(@PathVariable ("id")Integer id){
         return new ResponseEntity<>(posService.deletePos(id),HttpStatus.OK);
-
     }
-
 }

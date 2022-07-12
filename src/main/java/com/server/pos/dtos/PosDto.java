@@ -10,4 +10,9 @@ public class PosDto {
     private StatusEnum status;
 
 
+
+
+
+
+
 }

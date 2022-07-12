@@ -19,4 +19,5 @@ public interface PosService {
 
     List<Pos> getPos();
 
+    Pos getPosByBankId(Integer bankId);
 }
