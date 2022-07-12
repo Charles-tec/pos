@@ -21,9 +21,4 @@ public class ResponseBuild<T> {
         return response;
     };
 
-    public Function<Page<T>,Response> pageResponseFunction= obj->{
-        Response response=new Response();
-        response.setPage(obj);
-        return response;
-    };
 }
